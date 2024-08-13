@@ -14,7 +14,7 @@ const DropdownMenu = ({ name, items }) => {
         onClick={() => setIsExpanded(!isExpanded)}
       >
         {/* Text */}
-        <span className="text-lg font-semibold">{name}</span>
+        <span>{name}</span>
         {/* Icon */}
         <MenuIcon className={`w-5 h-5 transition-transform text-orange-main ${isExpanded ? 'rotate-180' : ''}`} />
       </div>
@@ -25,9 +25,9 @@ const DropdownMenu = ({ name, items }) => {
           {items.map(item => (
             <div
               key={item.id}
-              className="flex items-center p-2 hover:bg-gray-100 cursor-pointer"
+              className="flex items-center p-2 cursor-pointer"
             >
-              <item.icon className="w-5 h-5 mr-2 text-orange-main" />
+              <item.icon />
               <span>{item.title}</span>
             </div>
           ))}
