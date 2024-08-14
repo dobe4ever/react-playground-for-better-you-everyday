@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  PanelTopOpen, Bot, Star, LayoutGrid, LayoutPanelLeft, Calendar, CircleCheckBig, Check, CheckCheck, ChartCandlestick,
+  PanelTopOpen, Home, Bot, Star, LayoutGrid, LayoutPanelLeft, Calendar, CircleCheckBig, Check, CheckCheck, ChartCandlestick,
   AlarmClockCheck, ListCheck, Pin, SquareCheckBig, SquareCheck, Flame, House, Newspaper, CirclePlus, ListCollapse,
   EyeOff, Bell, User, UserPen, LayoutList, Gem, Rocket, Cross, DiamondPlus, Mail, Wallet, Handshake, SmilePlus,
   PartyPopper, Brain, ThumbsUp, ThumbsDown, NotebookPen, Heart, ListOrdered, Tally1, Tally2, Tally3, Tally4, Tally5,
@@ -78,6 +78,7 @@ const Icons = () => {
       {/* Icon Buttons */}
       <div>
         <h2 className="text-xl font-semibold mb-2">Icon Buttons</h2>
+
           
         {/* Grid */}
         <div className="grid grid-cols-2 gap-4">
@@ -89,6 +90,19 @@ const Icons = () => {
             <IconButton Icon={Calendar} />
           </div>
 
+
+            <div>
+              <i data-lucide="phone" aria-hidden="true"></i>
+              <span class="sr-only">Phone number</span>
+            </div>
+            
+            <div>
+            <button class="btn-icon">
+              <Home/>
+              <span class="visually-hidden">Go to home</span>
+            </button>
+            </div>
+            
           {/* Orange Buttons */}
           <div className="flex space-x-2">
             <IconButton Icon={Star} inverse />

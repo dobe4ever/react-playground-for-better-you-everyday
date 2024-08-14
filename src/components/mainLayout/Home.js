@@ -11,17 +11,11 @@ const Home = () => {
         />
       </div>
 
-      <h1 className="font-bold text-center py-4 text-4xl text-transparent bg-clip-text bg-gradient-orange">
-        A Habit and Todo Tracking App
-      </h1>
-
-      <p className="text-gray-700">
+      <p>
         This full-stack application is designed to help users track and manage their daily habits and todos. It combines customizable todo lists with a comprehensive habit tracking system, enhanced by AI coaching and community features.
       </p>
 
-      <h2 className="font-bold py-4 text-transparent bg-clip-text bg-gradient-orange">
-        Key Features
-      </h2>
+      <h2 className="text-style-heading bg-gradient-orange bg-clip-text text-transparent">Key Features</h2>
 
       <section>
         <h3 className="font-semibold text-lg">1. List Management</h3>
@@ -154,8 +148,7 @@ const Home = () => {
         </ul>
       </section>
 
-      <h2 className="font-bold py-4 text-transparent bg-clip-text bg-gradient-orange">
-        Technical Stack
+      <h2 className="text-style-heading bg-gradient-orange bg-clip-text text-transparent">Technical Stack
       </h2>
       <ul className="list-disc pl-5">
         <li>Frontend: React.js with Tailwind CSS and react-lucide</li>
@@ -171,8 +164,7 @@ const Home = () => {
         </li>
       </ul>
 
-      <h2 className="font-bold py-4 text-transparent bg-clip-text bg-gradient-orange">
-        UI/UX Design
+      <h2 className="text-style-heading bg-gradient-orange bg-clip-text text-transparent">UI/UX Design
       </h2>
       <ul className="list-disc pl-5">
         <li>Consistent use of icons throughout the app</li>
@@ -180,8 +172,7 @@ const Home = () => {
         <li>Responsive design for various screen sizes</li>
       </ul>
 
-      <h2 className="font-bold py-4 text-transparent bg-clip-text bg-gradient-orange">
-        Development Approach
+      <h2 className="text-style-heading bg-gradient-orange bg-clip-text text-transparent">Development Approach
       </h2>
       <ul className="list-disc pl-5">
         <li>Component-based architecture</li>

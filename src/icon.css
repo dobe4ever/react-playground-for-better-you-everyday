@@ -1,12 +1,92 @@
+/* icon.css */
+
+/* Base class for Lucide icons */
 .lucide {
-  /* Change this! */
-  color: #ff5300;
   width: 26px;
   height: 26px;
   stroke-width: 1.5px;
-  padding-right: 2;
+  fill: none;
+  stroke: currentColor;
 }
 
+.sr-only {
+  width: 26px;
+  height: 26px;
+  stroke-width: 1.5px;
+  fill: none;
+  stroke: currentColor;
+}
+
+/* Different sizes for icons */
+.lucide-sm {
+  width: 16px;
+  height: 16px;
+}
+
+.lucide-md {
+  width: 24px;
+  height: 24px;
+}
+
+.lucide-lg {
+  width: 32px;
+  height: 32px;
+}
+
+.lucide-xl {
+  width: 40px;
+  height: 40px;
+}
+
+/* Different colors for icons */
+.lucide-orange {
+  color: #ff5300;
+}
+
+.lucide-orange_light {
+  color: #FF5300;
+}
+
+/* Icons with text labels */
+.lucide-with-label {
+  display: flex;
+  align-items: center;
+}
+
+.lucide-with-label .lucide {
+  margin-right: 8px;
+}
+
+/* Small icons with thin outline for cards */
+.lucide-card {
+  width: 14px;
+  height: 14px;
+  stroke-width: 1px;
+}
+
+/* Icons for top bar */
+.lucide-top-bar {
+  width: 20px;
+  height: 20px;
+}
+
+/* Icons for bottom navigation */
+.lucide-bottom-nav {
+  width: 22px;
+  height: 22px;
+}
+
+/* Additional styles for hover and active states */
+.lucide:hover {
+  cursor: pointer;
+  animation: pulse 1s infinite;  
+}
+
+.lucide:active {
+  stroke-width: 2px;
+}
+
+/* Example of a grid layout for icons */
 .app {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
